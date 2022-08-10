@@ -76,7 +76,7 @@ ul li a i{
     color: hsl(243, 100%, 93%);
     border: 2px solid hsl(229, 7%, 55%);
     padding: .5rem;
-    width: 2.5rem;
+    width: 2.3rem;
     border-radius: 100%;
 }
 ul li a i:hover{
@@ -107,5 +107,8 @@ ul li a i:hover{
             width: 13rem;
             margin: 1rem auto 4rem;
     }
+    ul{
+    padding: 6rem 0 0;
+}
 
 }
