@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: "Poppins";
+}
+body{
+   background-color: hsl(243, 100%, 93%); 
+}
+.container{
+    text-align: center;
+    padding-top: 3rem;
+    background-color: hsl(229, 57%, 11%);
+    margin: 0 1%;
+    padding-bottom: 1rem;
+}
+h1{
+    padding: 0 0 3rem;
+    font-size: 4.5rem;
+    color: hsl(243, 100%, 93%);
+    font-family: "Sacramento";
+}
+h2{
+    color: hsl(229, 7%, 55%);
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    font-style: oblique;
+}
+img{
+    width: 20rem;
+    border-radius: 100%;
+    padding-bottom: 3rem;
+}
+a{
+    text-decoration: none;
+}
+.about_link, .cv_link{
+    border: 1px solid white;
+    padding: .6rem 3rem;
+    border-radius: 100px;
+    margin: 0 .8rem;
+    transition: .4s;
+}
+.about_link{
+    background-color: hsl(228, 56%, 26%);
+    color: hsl(243, 100%, 93%);
+}
+.about_link:hover{
+    background-color: transparent;
+        color: hsl(243, 100%, 93%);
+    transition: .4s;
+}
+.cv_link{
+    background-color: hsl(335, 100%, 65%);
+    color: hsl(243, 100%, 93%);
+}
+.cv_link:hover{
+    background-color: hsl(6, 100%, 80%);
+    color: hsl(243, 100%, 93%);
+    transition: .4s;
+}
+
+ul{
+    list-style-type: none;
+    padding-block: none;
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+    padding: 3rem;
+}
+
+ul li a i{
+    font-size: 1rem;
+    color: hsl(243, 100%, 93%);
+    border: 2px solid hsl(229, 7%, 55%);
+    padding: .5rem;
+    width: 2.5rem;
+    border-radius: 100%;
+}
+ul li a i:hover{
+    color: hsl(335, 100%, 65%);
+    border: 2px solid hsl(335, 100%, 65%);
+}
+
+@media (max-width: 720px){
+    .container{
+        height: 100vh;
+    }
+    h1 {
+            font-size: 3.8rem;
+        }
+    h2{
+        font-size: 1.5rem;
+    }
+    img {
+        width: 10rem;
+    }
+    .about_link{
+        display: block;
+        width: 12rem;
+        margin: 0 auto;
+    }
+    .cv_link{
+        display: block;
+            width: 13rem;
+            margin: 1rem auto 4rem;
+    }
+
+}
