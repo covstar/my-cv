@@ -11,10 +11,9 @@ body{
 }
 .container{
     text-align: center;
-    padding-top: 3rem;
     background-color: hsl(229, 57%, 11%);
     margin: 0 1%;
-    padding-bottom: 1rem;
+    Padding: 3rem 2rem 1rem;
 }
 h1{
     padding: 0 0 3rem;
@@ -26,7 +25,6 @@ h2{
     color: hsl(229, 7%, 55%);
     padding-bottom: 2rem;
     font-size: 2rem;
-    font-style: oblique;
 }
 img{
     width: 20rem;
